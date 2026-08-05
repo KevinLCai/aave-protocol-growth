@@ -50,7 +50,6 @@ Open a notebook and **Run All**. A few things to know:
 
 The two `.sql` files are written for [Dune Analytics](https://dune.com) and aren't executable locally:
 
-1. Create a free Dune account and open the query editor.
-2. Paste in the `.sql` file contents.
-3. Adjust the `params` CTE at the top of each query (asset addresses, LTV bounds, etc. — comments inline mark what to check/adjust) to match the addresses/parameters from `00_setup_data_sourcing.ipynb` if you're re-running against a different market or block range.
-4. Run. Unlike the notebooks, these read live/current chain state, not the pinned block — see the caveat in Section 2.8 of `02_q2_who_are_loopers.ipynb` for how that affects comparability.
+Dashboards are available to view at:
+Q2: https://dune.com/kevinlcai/usde-largest-loopers
+Q3: https://dune.com/kevinlcai/ethena-carry-dashboard
